@@ -1,0 +1,25 @@
+from tkinter import *
+windows = Tk()
+windows.title("my second program")
+windows.geometry("1000x1000+430+260")
+
+btn = Button(windows, text="1", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn.grid(column=0,row=0)
+btn2 = Button(windows, text="2", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn2.grid(column=1, row =0)
+btn3 = Button(windows, text="3", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn3.grid(column=2, row=0)
+btn4 = Button(windows, text="4", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn4.grid(column=0, row=1)
+btn5 = Button(windows, text="5", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn5.grid(column=1, row=1)
+btn6 = Button(windows, text="6", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn6.grid(column=2, row=1)
+btn7 = Button(windows, text="7", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn7.grid(column=0, row=2)
+btn8 = Button(windows, text="8", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn8.grid(column=1, row=2)
+btn9 = Button(windows, text="9", fg="#ffffff", bg="#494ede", font=("arial", 15), width=20, height=5)
+btn9.grid(column=2, row=2)
+
+windows.mainloop
